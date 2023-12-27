@@ -24,7 +24,7 @@ class CustomersChart extends ChartWidget
         return [
             'datasets' => [
                 [
-                    'label' => 'Treatments',
+                    'label' => 'Customers',
                     'data' => $data->map(fn (TrendValue $value) => $value->aggregate)
                 ]
             ],
